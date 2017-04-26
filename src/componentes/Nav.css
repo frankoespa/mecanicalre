@@ -1,0 +1,8 @@
+.logo {
+    width: 200px;
+    height: 100%;
+    background-image: url("../img/LogoMecanica.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center
+}
