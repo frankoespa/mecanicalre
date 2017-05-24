@@ -1,8 +1,13 @@
 .logo {
-    width: 200px;
+    width: 250px;
     height: 100%;
-    background-image: url("../img/LogoMecanica.png");
+    background-image: url("../img/LogoMecanica.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center
+}
+
+.menu {
+    position: relative;
+    z-index: 1
 }
