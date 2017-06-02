@@ -1,34 +1,41 @@
-.portada {
+.port-portada {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center
 }
 
-.foto1 {
+.port-foto1 {
     background-image: url("../img/1.jpg");
 }
 
-.foto2 {
+.port-foto2 {
     background-image: url("../img/2.jpg");
 }
 
-.foto3 {
+.port-foto3 {
     background-image: url("../img/3.jpg");
 }
 
-.foto4 {
+.port-foto4 {
     background-image: url("../img/4.jpg");
 }
 
-.configslider{
+.port-configslider{
     height: 500px !important;
 }
 
-.port-titulo {
-    font-size: 3rem;
-    font-weight: 100;
+.port-texto{
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     border-radius: 10px;
     padding: 10px
+}
+
+.port-titulo {
+    font-weight: 300;
+    
+}
+
+.port-subtitulo{
+    font-weight: 100
 }
