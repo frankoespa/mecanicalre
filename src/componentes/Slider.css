@@ -1,4 +1,9 @@
+.mislider {
+    height: 500px;
+}
+
 .port-portada {
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center
@@ -20,22 +25,25 @@
     background-image: url("../img/4.jpg");
 }
 
-.port-configslider{
-    height: 500px !important;
+@media screen and (max-width:600px) {
+    .mislider {
+        height: 300px
+    }
+    .port-portada {
+        height: 300px
+    }
 }
 
-.port-texto{
+.port-texto {
     background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
     border-radius: 10px;
     padding: 10px
 }
 
 .port-titulo {
     font-weight: 300;
-    
 }
 
-.port-subtitulo{
+.port-subtitulo {
     font-weight: 100
 }

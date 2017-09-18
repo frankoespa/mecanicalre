@@ -1,0 +1,12 @@
+.imagen-scanner {
+    width: 70%;
+    height: auto
+}
+
+@media screen and (min-width: 992px) {
+    .full-height {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+}

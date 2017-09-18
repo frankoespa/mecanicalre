@@ -1,15 +1,64 @@
 .App {
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden
+    width: 100%
+}
+
+.row {
+    margin-bottom: 0
+}
+
+.app-margen-abajo {
+    margin-bottom: 50px
 }
 
 .app-titulo {
+    margin-bottom: 30px;
     position: relative;
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 0 20% / 0 80%;
+}
+
+.app-titulo2 {
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 20px
+}
+
+.app-titulo-parallax {
+    font-weight: 400;
+    padding: 20px
+}
+
+.app-desc {
+    font-weight: 300
+}
+
+.app-servicios {
     font-weight: 400
 }
 
-.app-servicios{
-    font-weight: 400
+.app-colorfondo1 {
+    background-color: #2ea1db
+}
+
+.app-colorfondo1trans {
+    background-color: rgba(46, 161, 219, 0.7)
+}
+
+.app-colorfondo2 {
+    background-color: #2e4bdb
+}
+
+.app-colorfondo3 {
+    background-color: #db2e4b
+}
+
+.app-colorfondo4 {
+    background-color: #db682e
+}
+
+.app-colortexto1 {
+    color: #2ea1db
 }

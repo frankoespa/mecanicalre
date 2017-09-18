@@ -1,0 +1,27 @@
+.imagen-w {
+    width: 8%;
+    height: auto;
+    margin: 5px
+}
+
+.numtel {
+    font-weight: 300;
+    margin: 5px
+}
+
+.caja-w {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px
+}
+
+@media screen and (max-width: 600px) {
+    .caja-w {
+        flex-direction: column
+    }
+    .imagen-w {
+        width: 25%
+    }
+}

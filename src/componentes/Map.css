@@ -1,0 +1,14 @@
+.map {
+    height: 400px;
+    background-color: gray
+}
+
+.map-titulo {
+    font-weight: 300
+}
+
+.map-titulogrande {
+    font-weight: 500;
+    background-color: #2e4bdb;
+    border-radius: 0 20% / 0 80%;
+}

@@ -1,4 +1,9 @@
 .serv-icon {
-    width: 50%;
-    height: auto
+    width: 40%;
+    height: auto;
+    transition: transform 300ms
+}
+
+.serv-icon:hover {
+    transform: scale(1.2, 1.2)
 }
