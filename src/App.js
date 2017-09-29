@@ -16,6 +16,12 @@ import Footer from './componentes/Footer';
 
 class App extends Component {
 
+    componentDidMount(){
+        window.kissuiScrollAnim.setOptions({
+            'autoReset': false
+        })
+    }
+
     render() {
         return (
             <div className="App">

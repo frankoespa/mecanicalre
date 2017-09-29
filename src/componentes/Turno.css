@@ -1,5 +1,5 @@
 .imagen-w {
-    width: 8%;
+    width: 7%;
     height: auto;
     margin: 5px
 }
@@ -13,8 +13,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 20px
+    align-items: center
 }
 
 @media screen and (max-width: 600px) {

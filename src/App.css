@@ -11,6 +11,7 @@
 }
 
 .app-titulo {
+    margin-top: 0;
     margin-bottom: 30px;
     position: relative;
     display: inline-block;
@@ -61,4 +62,9 @@
 
 .app-colortexto1 {
     color: #2ea1db
+}
+
+.app-section {
+    padding-top: 50px;
+    padding-bottom: 50px
 }
