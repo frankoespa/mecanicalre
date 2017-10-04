@@ -21,7 +21,7 @@ class About extends Component {
 
     render() {
         return (
-            <div className="container center-align app-section">
+            <div className="container center-align app-section scrollspy" id="nosotros">
                 <h5 className="white-text app-colorfondo2 app-titulo z-depth-5" ref={(titulo) => { this.titulo = titulo }}>¿POR QUÉ NOSOTROS?</h5>
                 <p className="flow-text grey-text text-darken-3 app-desc" ref={(frase1) => { this.frase1 = frase1 }}>Somos una empresa especializada en servicios de mecánica integral automotriz desde hace 30 años, contando con un equipo de profesionales experimentados, equipamiento y tecnología de vanguardia</p>
                 <p className="flow-text grey-text text-darken-3 app-desc" ref={(frase2) => { this.frase2 = frase2 }}>Si se presenta un problema en su vehículo, lo eliminaremos de forma rápida y efectiva realizando todos los trabajos relacionados con la reparación de su vehículo, de manera eficiente y económica</p>

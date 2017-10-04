@@ -1,0 +1,15 @@
+.social-caja {
+    z-index: 2;
+    background-color: transparent;
+    position: fixed;
+    bottom: 10px;
+    right: 10px
+}
+
+.social-face {
+    border-radius: 50%
+}
+
+.pulse::before {
+    background-color: #2e4bdb
+}

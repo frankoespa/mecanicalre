@@ -48,7 +48,7 @@ class Servicios extends Component {
 
     render() {
         return (
-            <div className="container app-section">
+            <div className="container app-section scrollspy" id="servicios">
                 <div className="row">
                     <div className="col s12 center-align">
                         <h5 className="white-text app-colorfondo2 app-titulo z-depth-5" ref={(titulo)=>{this.titulo=titulo}}>SERVICIOS</h5>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Nav.css'
+import './Nav.css';
 
 class Nav extends Component {
 
@@ -10,11 +10,11 @@ class Nav extends Component {
                 <div className="nav-wrapper container">
                     <a href="#" className="brand-logo nav-logo"></a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li className="grey-text text-darken-3"><i className="material-icons left">phone</i>341-155889498</li>
-                        <li><a href="#" className="grey-text text-darken-3">Servicios</a></li>
-                        <li><a href="#" className="grey-text text-darken-3">Nosotros</a></li>
-                        <li><a href="#" className="grey-text text-darken-3">Contacto</a></li>
-                    </ul>
+                        <li className="white-text app-colorfondo1 nav-num"><i className="material-icons left">phone</i>(341) - 155889498</li>
+                        <li><a href="#servicios" className="grey-text text-darken-3">Servicios</a></li>
+                        <li><a href="#nosotros" className="grey-text text-darken-3">Nosotros</a></li>
+                        <li><a href="#contacto" className="grey-text text-darken-3">Contacto</a></li>
+                    </ul>                  
                 </div>
             </nav>
 

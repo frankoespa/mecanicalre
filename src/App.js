@@ -9,17 +9,15 @@ import Map from './componentes/Map';
 import Scanner from './componentes/Scanner';
 import Turno from './componentes/Turno';
 import Footer from './componentes/Footer';
-
-
-
-
+import Social from './componentes/Social';
 
 class App extends Component {
 
     componentDidMount(){
         window.kissuiScrollAnim.setOptions({
             'autoReset': false
-        })
+        });
+        window.$('.scrollspy').scrollSpy({ scrollOffset: 0})
     }
 
     render() {
@@ -34,6 +32,7 @@ class App extends Component {
                 <Turno></Turno>
                 <Map></Map>
                 <Footer></Footer>
+                <Social></Social>
                 
             </div>
         );

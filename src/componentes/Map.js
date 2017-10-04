@@ -34,7 +34,7 @@ class Map extends Component {
 
     render() {
         return (
-            <div className="row app-colorfondo3 app-section" style={{marginBottom:"0"}}>
+            <div className="row app-colorfondo3 app-section scrollspy" style={{marginBottom:"0"}} id="contacto">
                 <div className="col s12 center-align">
                     <h5 className="grey-text text-darken-3 white app-titulo z-depth-5" ref={(titulo)=>{this.titulo=titulo}}>VEN A VISITARNOS</h5>
                 </div>

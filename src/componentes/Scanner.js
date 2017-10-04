@@ -25,7 +25,7 @@ class Scanner extends Component {
     render() {
         return (
             
-                <div className="row full-height app-colorfondo2 app-section">
+                <div className="row full-height app-colorfondo2 app-section scrollspy" id="scanner">
                     <div className="col s12 m12 center-align">
                         <h5 className="white-text app-colorfondo3 app-titulo z-depth-5" ref={(titulo)=>{this.titulo=titulo}}>¿SCANNER AUTOMOTRIZ?</h5>
                         <p className="flow-text white-text app-desc" ref={(frase1)=>{this.frase1=frase1}}>Un scanner automotriz es un equipo de diagnóstico que se conecta al sistema informático interno del automóvil</p>
