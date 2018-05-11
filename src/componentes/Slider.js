@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { findDOMNode } from 'react-dom';
 import './Slider.css';
 
 class Slider extends Component {
@@ -10,8 +9,8 @@ class Slider extends Component {
     }
 
     componentDidMount() {
-        const slider = findDOMNode(this.refs.slider);
-        window.$(slider).slick({
+        
+        window.$(this.slider).slick({
             "accessibility": false,
             "autoplay": true,
             "autoplaySpeed": 5000,
@@ -25,7 +24,7 @@ class Slider extends Component {
 
     render() {
         return (
-            <div className="mislider center" ref="slider">
+            <div className="mislider center" ref={(slider)=>{this.slider = slider}}>
                 <div className="port-portada port-foto1" style={this.centrar}>
                     <h4 className="white-text port-texto port-titulo">Bienvenidos</h4><br />
                     <h5 className="white-text port-texto port-subtitulo">Somos un centro integral de reparación y mantenimiento de vehículos</h5>

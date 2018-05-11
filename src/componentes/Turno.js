@@ -22,7 +22,7 @@ class Turno extends Component {
                 <h4 className="white-text app-titulo2" ref={(titulo)=>{this.titulo=titulo}}>¡ESTAMOS EN WHATSAPP!</h4>
                 <div className="caja-w">      
                     <img src={logoW} alt="whatsap" className="imagen-w" ref={(icono) => { this.icono = icono }}/>        
-                    <h4 className="white-text numtel" ref={(num) => { this.num = num }}>(341)-155889498</h4>
+                    <h4 className="white-text numtel" ref={(num) => { this.num = num }}>341-5889498</h4>
                 </div>
             </div>
         );

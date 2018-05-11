@@ -9,8 +9,8 @@ class Footer extends Component {
                 <div className="container app-section">
                     <div className="row">
                         <div className="col s12 l4 center-align">
-                            <img src={logo} alt="Mecánica Esparza" style={{ width: "50%", height: "auto" }} />
-                            <p className="grey-text text-darken-3">Centro integral de reparación y mantenimiento de vehículos</p>
+                            <a href="#inicio"><img src={logo} alt="Mecánica Esparza" style={{ width: "50%", height: "auto" }} /></a>
+                            <p className="grey-text text-darken-3">Centro Integral de Reparación y Mantenimiento de Vehículos</p>
                             <p className="grey-text text-darken-3">Lamadrid 2424</p>
                             <p className="grey-text text-darken-3">(341) 155889498</p>
                             <p className="grey-text text-darken-3">(341) 4610836</p>
@@ -33,7 +33,7 @@ class Footer extends Component {
                 </div>
                 <div className="footer-copyright" style={{ backgroundColor: "#2EA1DB" }}>
                     <div className="container center-align">
-                        © 2017 Copyright Mecánica LR Esparza
+                        © 2017 Copyright Mecánica Esparza
                     </div>
                 </div>
                 <div className="footer-copyright" style={{ backgroundColor: "#424242" }}>
